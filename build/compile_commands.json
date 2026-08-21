@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/app_memory.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\app_memory.dir\\src\\memory\\memory.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\src\\memory\\memory.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/src/memory/memory.c",
+  "output": "CMakeFiles/app_memory.dir/src/memory/memory.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/app_logic.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\app_logic.dir\\src\\cpu\\cpu.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\src\\cpu\\cpu.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/src/cpu/cpu.c",
+  "output": "CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/loader.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\loader.dir\\src\\elf_loading\\elf_loader.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\src\\elf_loading\\elf_loader.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/src/elf_loading/elf_loader.c",
+  "output": "CMakeFiles/loader.dir/src/elf_loading/elf_loader.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/riscv.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\riscv.dir\\riscv_main.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\riscv_main.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/riscv_main.c",
+  "output": "CMakeFiles/riscv.dir/riscv_main.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/cpu_tests.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\cpu_tests.dir\\testing\\cpu\\cpu_testing.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\cpu\\cpu_testing.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/cpu/cpu_testing.c",
+  "output": "CMakeFiles/cpu_tests.dir/testing/cpu/cpu_testing.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/cpu_tests.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\cpu_tests.dir\\testing\\unity.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\unity.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/unity.c",
+  "output": "CMakeFiles/cpu_tests.dir/testing/unity.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/memory_tests.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\memory_tests.dir\\testing\\memory\\memory_testing.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\memory\\memory_testing.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/memory/memory_testing.c",
+  "output": "CMakeFiles/memory_tests.dir/testing/memory/memory_testing.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/memory_tests.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\memory_tests.dir\\testing\\unity.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\unity.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/unity.c",
+  "output": "CMakeFiles/memory_tests.dir/testing/unity.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/loader_test.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\loader_test.dir\\testing\\elf_loader\\loading_test.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\elf_loader\\loading_test.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/elf_loader/loading_test.c",
+  "output": "CMakeFiles/loader_test.dir/testing/elf_loader/loading_test.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/loader_test.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\loader_test.dir\\testing\\unity.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\testing\\unity.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/testing/unity.c",
+  "output": "CMakeFiles/loader_test.dir/testing/unity.c.obj"
+}
+]

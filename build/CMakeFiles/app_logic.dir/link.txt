@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libapp_logic.a CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libapp_logic.a

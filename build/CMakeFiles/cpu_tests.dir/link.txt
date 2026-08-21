@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cpu_tests.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cpu_tests.dir/objects.a @CMakeFiles\cpu_tests.dir\objects1.rsp
+C:\msys64\ucrt64\bin\clang.exe -g -Wl,--whole-archive CMakeFiles\cpu_tests.dir/objects.a -Wl,--no-whole-archive -o cpu_tests.exe -Wl,--out-implib,libcpu_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpu_tests.dir\linkLibs.rsp

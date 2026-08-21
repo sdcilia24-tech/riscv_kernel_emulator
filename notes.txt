@@ -1,0 +1,113 @@
+This is what i have completed so far
+
+R-type arithmetic/logical
+I-type arithmetic
+U-type
+B-type branches
+JAL
+JALR
+Loads
+Stores
+Fetch → Decode → Execute loop
+Unit tests around the FDE loop
+
+
+R types are pretty self explanatory its just basic arithmetic
+
+I types are also pretty simple, just the I stands for immediate meaning that you
+are adding some immediate constant to the target register
+
+U types, these are the same as the itypes essentially except now one of the cases 
+will now add the current program count along with the immediate
+
+JAL - jump and link, will save the current program count to rd, and then will 
+jump to the immediate offset value
+
+JALR - sets rd to incremented pc count, then will jump to the immediate location
+plus the value in the rs1 register. This allows for dynamic jumping at runtime 
+rather than only the static jal type. (the encoding for these are a nightmare)
+
+loads - load a word, half, byte from memory into the cpu 
+
+store - store a word half or byte from the cpu into memory 
+
+b-type - These are the most complex of the bunch and required the most unit 
+testing of them all (but still arent that bad) as these types allow for 
+jumps to an immediate value if a condition evaluates to true but otherwise the 
+program skips the instruction and executes as normal these read state flags 
+and then execute accordingly.
+
+Creating an assembly .s file and then using clang cross compiler to execute these 
+insctructions for me, so that i can convert the assembly into the actual 
+binary and then feed this binary into my emulator which will perform the instruction
+right now i know that i can use clang to configure to run the assembly file in risc
+formatting but i am unsure if i will actually need to parse the binary myself
+or will i just need to feed it into the emulator and the cycle can handle itself;
+we also need to execute some sort of termination function or else the loop will
+be caught infinetly. "clang --target=riscv32 -march=rv32i -mabi=ilp32 -c test.s -o test.o"
+command line prompt for clang to run the assem.
+
+
+Building the ELF file loader:
+    definition ELF executable and linkable format,
+    is the file format for actually running the executable
+
+    The file format only has one header with a fixed placement
+    and that is the elf header, which provides important 
+    information about the file including the machine type
+    the architecture and byte order. The header also provides informatio
+    about other sections of the file, as it can be written in any order 
+    differ in size etc. 
+
+    UNIVERSAL TO ALL ELF: FIRST FOUR BYTES -> MAGIC NUMBERS
+    used to identify the file
+    these are accessable via indexing 0-3 in e_ident which is part of 
+    the header struct
+
+    load only the neccesarry string tables into memory in the future
+    but for the current simpler implementaion we will be loading
+    the entire string table before execution 
+
+    The elf program header -> defines how the program behaves 
+    once it has been loaded, as well as runtime linking 
+    information
+
+    the bare minimum elf format has sections .text for the code 
+    .data for the initalized data and libraries.
+
+    The following is what the elf loader should perform 
+    - verify that the file starts with the elf magic num 4bytes
+    - read the elf header, always at the beginning of the file
+        we are only interested in the program headers for our
+        loader
+    - read the elf exe program headers, these specify where in 
+    the file the program segments are located and where to 
+    put them in memory (like a lookup table)
+    - parse the program headers to determine the number of 
+    progam segments that must be loaded, each program header 
+    has an associated type
+    - load each of the 'loadable' segments
+     * alloc vmemory for each segment, at the address specified by 
+     p_vaddr the size of the segemnt is specified by the p_memsz
+     * copy the segemtn data from the file offset specified by the 
+     p_offset member to the vmemory addr specified by p_vaddr
+     the size of the segment in the file is contained in the 
+     p_filesz member this can be zero (edge case implicated)
+     * The p_memsz member specifies the size the segment occupies in memory. This can be zero. If the p_filesz and p_memsz members differ, this indicates that the segment is padded with zeros. All bytes in memory between the ending offset of the file size, and the segment's virtual memory size are to be cleared with zeros.
+    * Read the executable's entry point from the ELF header.
+     * Jump to the executable's entry point in the newly loaded memory
+    RISC-V architecture signature: 0xF3
+    When beginining to program refer to this link 
+    https://wiki.osdev.org/ELF?
+    and then navigate to the program/elf header tables to create 
+    and parse our structures to print headers to the terminal run
+    objdump -x test.o 
+
+
+    now that we have the programs loaded into memory we need to once again read all of their
+    program header flags and the cpu can then determine whether to rwe that current instrcution based on
+    the flag. we should do this in the load programs functions as we should store the permissions somewhere 
+    maybe we can allocate a block of memory for the program flags that once read by the cpu become voided
+    or we can store a parallel array with the program flags, therfore its like a pseudo hashtable 
+    and we can have that o-1 lookup time then once working we will refactor to actually using a 
+    hash table.

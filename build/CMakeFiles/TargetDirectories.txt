@@ -1,0 +1,10 @@
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/app_logic.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/app_memory.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/loader.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/riscv.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/cpu_tests.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/memory_tests.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/loader_test.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/test.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/edit_cache.dir
+C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libloader.a CMakeFiles/loader.dir/src/elf_loading/elf_loader.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libloader.a
