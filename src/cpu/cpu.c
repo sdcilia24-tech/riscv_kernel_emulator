@@ -63,6 +63,11 @@ cpu_t init_cpu()
     return cpu;
 }
 
+/*
+    @param to_copy: array to copy
+    @param len: length of the array
+    Helper function to create a deep copy of an array 
+*/
 uint32_t* deep_copy(uint32_t *to_copy, int len)
 {
     if (to_copy == NULL)
@@ -605,6 +610,15 @@ void fetch_decode_execute(cpu_t *cpu)
 
 }
 
+/*
+    @param cpu: cpu_t struct 
+    @param ins: RISC-V 32bit instruction
+    @param old reg: register value before instruction execution
+    @param old_pc: old program counter value before execution
+    the tracing function for the cpu will populate the cpu_info_t struct with the 
+    relevant data for debugging / general purpose to see which info actually gets stored
+    visit the definition of the cpu_iinfo_t struct
+*/
 void trace_cpu(cpu_t *cpu, uint32_t ins, uint32_t *old_reg, uint32_t old_pc)
 {
     cpu_info_t log;
