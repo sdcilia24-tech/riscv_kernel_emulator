@@ -355,7 +355,6 @@ void load_to_memory(program_header *p_h, mem_t *memory, file_info_t info)
             {
                 memory -> map[addr + i] = file_runner[i];
             }
-            memory -> program_map[addr + i] = p_flag;
         }
     }
 }

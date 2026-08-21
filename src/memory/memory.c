@@ -21,7 +21,6 @@ typedef struct
     p_loc_t segment_info; // info about the segemnt 
     int num_segments; // number of segments 
     uint8_t map[MEM_LEN]; //256 kB 
-    uint32_t program_map[MEM_LEN]; // parallel array
     p_loc_t *segments; // array of segments 
 
 } mem_t;
@@ -35,7 +34,6 @@ mem_t init_memory()
     p_loc_t p;
     memory.num_segments = 0;
     memset(&memory.map, 0, sizeof(memory.map));
-    memset(&memory.program_map, 0, sizeof(memory.program_map));
     memory.segments = NULL;
     p.start = 0;
     p.end = 0;
@@ -134,40 +132,4 @@ uint32_t read_byte(mem_t *memory, uint32_t addr)
 {
     uint32_t byte_0 = (memory -> map[addr]);
     return byte_0; 
-}
-
-/*
-    @param *memory: the memory structure
-    @param addr: write address
-    
-    checks if memory has write permissions 
-*/
-bool has_write(mem_t *memory, uint32_t addr)
-{ 
-    uint32_t ext_flag = memory -> program_map[addr];
-    return (ext_flag & PF_W);
-}
-
-/*
-    @param *memory: the memory structure
-    @param addr: write address
-    
-    checks if memory has execute permissions
-*/
-bool has_exec(mem_t *memory, uint32_t addr)
-{
-    uint32_t ext_flag = memory -> program_map[addr];
-    return (ext_flag & PF_X);
-}
-
-/*
-    @param *memory: the memory structure
-    @param addr: write address
-    
-    checks if memory has read permissions
-*/
-bool has_read(mem_t *memory, uint32_t addr)
-{
-    uint32_t ext_flag = memory -> program_map[addr];
-    return (ext_flag & PF_R) != 0;
 }

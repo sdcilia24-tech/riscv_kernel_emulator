@@ -23,7 +23,6 @@ typedef struct
     p_loc_t segment_info;
     int num_segments;
     uint8_t map[MEM_LEN]; // 256 kB
-    uint32_t program_map[MEM_LEN];
     p_loc_t *segments;
 
 } mem_t;
@@ -35,8 +34,5 @@ void write_half(mem_t *memory, uint32_t addr, uint32_t word);
 uint32_t read_half(mem_t *memory, uint32_t addr);
 void write_byte(mem_t *memory, uint32_t addr, uint32_t word);
 uint32_t read_byte(mem_t *memory, uint32_t addr);
-bool has_write(mem_t *memory, uint32_t addr);
-bool has_exec(mem_t *memory, uint32_t addr);
-bool has_read(mem_t *memory, uint32_t addr);
 mem_t init_memory();
 #endif

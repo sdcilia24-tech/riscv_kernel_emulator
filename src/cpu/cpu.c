@@ -511,9 +511,9 @@ void set_cpu_pc(cpu_t *cpu, uint32_t entry)
 */
 void fetch_decode_execute(cpu_t *cpu)
 {
-    if (!has_exec(cpu -> memory, cpu -> pc))
+    if (!(PF_R & cpu -> memory -> segment_info.flag))
     {
-        cpu_throw_fatal(NO_EXEC, cpu -> pc);
+        cpu_throw_fatal(NO_READ, cpu -> pc);
     }
 
     uint32_t fetched_ins = read_word(cpu -> memory, cpu -> pc);
@@ -525,7 +525,7 @@ void fetch_decode_execute(cpu_t *cpu)
         uint32_t starting_index = cpu -> memory -> segments[i].start;
         uint32_t end_index = cpu -> memory -> segments[i].end; 
 
-        if (starting_index <= cpu -> pc && end_index > cpu -> pc) 
+        if (starting_index <= cpu -> pc && cpu -> pc < end_index) 
         {
             found = true;
             found_at = i;
