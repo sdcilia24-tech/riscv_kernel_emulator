@@ -45,6 +45,11 @@ formatting but i am unsure if i will actually need to parse the binary myself
 or will i just need to feed it into the emulator and the cycle can handle itself;
 we also need to execute some sort of termination function or else the loop will
 be caught infinetly. "clang --target=riscv32 -march=rv32i -mabi=ilp32 -c test.s -o test.o"
+
+clang --target=riscv32 -march=rv32i -mabi=ilp32 -c test.s -o test.o
+clang --target=riscv32 -march=rv32i -mabi=ilp32 -nostdlib -fuse-ld=lld test.o -o test.elf
+
+
 command line prompt for clang to run the assem.
 
 
@@ -111,3 +116,10 @@ Building the ELF file loader:
     or we can store a parallel array with the program flags, therfore its like a pseudo hashtable 
     and we can have that o-1 lookup time then once working we will refactor to actually using a 
     hash table.
+
+
+
+
+    NOW program tracing, rather than that incoherent cpu loop for testing we will trace the program post execution
+    so essentially if this function is called via argc argv on the command line we can dump the register values
+    and the asoociated instruction to ensure that they line up, 

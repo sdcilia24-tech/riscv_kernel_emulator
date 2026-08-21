@@ -2,6 +2,7 @@
 #include "memory/memory.h"
 #include <stdint.h>
 #include <stdlib.h>
+#include <string.h>
 #define X_LEN 32
 
 // Opcode typing for easy refereence
@@ -26,12 +27,64 @@
 #define ILLEGAL_FUNCT3 6773
 
 typedef struct {
+
+    long old_pc; // old program counter value
+    long new_pc; // new program counter value
+
+    long register_affected; // the register affected
+    long old_reg_val; // old value in register
+    long new_reg_val; // new value in register
+
+    uint32_t opcode;
+
+} cpu_info_t;
+
+typedef struct {
+
     uint32_t registers[X_LEN]; // cpu registers
     mem_t *memory; // cpu reference to memory 
     uint32_t pc; // program counter 
+    cpu_info_t data; // cpu data
+
 } cpu_t;
 
+cpu_t init_cpu()
+{
+    cpu_t cpu;
+    cpu_info_t inf;
+    memset(&cpu.registers, 0, sizeof(cpu.registers));
+    cpu.memory = NULL;
+    inf.new_pc = 0;
+    inf.old_pc = 0;
+    inf.new_reg_val = 0;
+    inf.old_reg_val = 0;
+    inf.opcode = 0;
+    inf.register_affected = 0;
+    return cpu;
+}
 
+uint32_t* deep_copy(uint32_t *to_copy, int len)
+{
+    if (to_copy == NULL)
+    {
+        return NULL;
+    }
+    else
+
+    {
+        uint32_t *deep_copy = malloc(sizeof(uint32_t) * len);
+        if (deep_copy == NULL)
+        {
+            return NULL;
+        }
+        for (int i = 0; i < len; i++)
+        {
+            deep_copy[i] = to_copy[i];
+        }
+
+        return deep_copy;
+    }
+}
  /*
     @param x: the integer that you want to sign extend
     @param length: the length of the integer (0101 HAS LENGTH FOUR)
@@ -237,8 +290,8 @@ void execute_b_type(cpu_t *cpu, uint32_t funct3, uint32_t ins)
     uint32_t rs1 = (ins >> 15) & 0x1F; // bits 19 - 15
     uint32_t rs1_unsigned_val = cpu -> registers[rs1]; // val of rs1 reg
     uint32_t rs2_unsigned_val = cpu -> registers[rs2]; // val of rs2 reg
-    int32_t rs1_signed_val = (int32_t)rs1_unsigned_val;
-    int32_t rs2_signed_val = (int32_t)rs2_unsigned_val;
+    int32_t rs1_signed_val = extend_n_bit_sign(rs1_unsigned_val, 32);
+    int32_t rs2_signed_val = extend_n_bit_sign(rs2_unsigned_val, 32);
 
     uint32_t twelveth_bit = ((ins >> 31) & 0x01) << 12; // 1-bit
     uint32_t ten_to_five = ((ins >> 25) & 0x3F) << 5; // 6-bits
@@ -246,7 +299,7 @@ void execute_b_type(cpu_t *cpu, uint32_t funct3, uint32_t ins)
     uint32_t eleventh_bit = ((ins >> 7) & 0x01) << 11; // 1-bit
     uint32_t four_to_one = ((ins >> 8) & 0x0F) << 1; // 4 bits
 
-    uint32_t imm = extend_n_bit_sign(twelveth_bit | eleventh_bit | ten_to_five | four_to_one, 12);
+    uint32_t imm = extend_n_bit_sign(twelveth_bit | eleventh_bit | ten_to_five | four_to_one, 13);
 
     switch (funct3) 
     {
@@ -417,8 +470,8 @@ void emulate_instruction(cpu_t *cpu, uint32_t ins, uint32_t perm)
             break;
 
         case R_TYPE: // arithmetic types
-            uint8_t funct7 = (ins >> 25) & 0x7F; // 31 - 25
-            uint8_t funct3 = (ins >> 12) & 0x07; // bits 14 - 12
+            uint8_t funct7 = ((ins >> 25) & 0x7F); // 31 - 25
+            uint8_t funct3 = ((ins >> 12) & 0x07); // bits 14 - 12
             execute_r_type(cpu, funct3, funct7, ins);
             cpu -> pc += 4;
             break;
@@ -431,7 +484,7 @@ void emulate_instruction(cpu_t *cpu, uint32_t ins, uint32_t perm)
             break;
 
         case U_TYPE_NO_PC_INC: // u-type no1 rd = imm << 12
-            uint32_t imm = (ins >> 12) & 0xFFFFF;
+            uint32_t imm = ((ins >> 12) & 0xFFFFF);
             uint32_t rd = (ins >> 7) & 0x1F;
             cpu -> registers[rd] = ((uint32_t)imm << 12);
             cpu -> pc += 4;
@@ -552,6 +605,27 @@ void fetch_decode_execute(cpu_t *cpu)
 
 }
 
+void trace_cpu(cpu_t *cpu, uint32_t ins, uint32_t *old_reg, uint32_t old_pc)
+{
+    cpu_info_t log;
+    char buffer[256]; 
+    log.opcode = (ins & 0x0FF);
+    log.new_pc = (long) (cpu -> pc);
+    log.old_pc = (long)old_pc;
+
+    for (int i = 0; i < X_LEN; i++)
+    {
+        log.old_reg_val = (long)old_reg[i];
+        log.new_reg_val = (long)cpu -> registers[i];
+        log.register_affected = (long)i;
+        if (old_reg[i] != cpu -> registers[i])
+        {
+            break;
+        }
+    }
+    cpu -> data = log;
+}
+
 void cpu_loop(cpu_t *cpu)
 {
     bool running = true;
@@ -567,12 +641,30 @@ void cpu_loop_for_testing(cpu_t *cpu, int num_cycles, char* func_name)
     {
         uint32_t ins = read_word(cpu -> memory, cpu -> pc);
         uint32_t opcode = ins & 0x0FF;
+
+        uint32_t *old_registers = deep_copy(cpu -> registers, X_LEN);
+        uint32_t old_pc = cpu -> pc;
+
         fetch_decode_execute(cpu);
+        trace_cpu(cpu, ins, old_registers, old_pc);
         putchar('\n');
-        printf("      DEBUG LOG FOR [ %s ] iter: %d \n      ", func_name, i);
-        printf("PC: %8X | CPU MEMORY VALUE %08X  \n      CPU INSTRUCTION %08X | OPCODE: %X \n \n", 
-            cpu -> pc, cpu -> memory -> map[cpu -> pc], ins, opcode);
-        printf("==================================================================\n");
+        printf("DEBUG LOG FOR [ %s ] iter: %d \n", func_name, i);
+        if (cpu -> data.old_reg_val == cpu -> data.new_reg_val)
+        {
+            printf("No register affected\n");
+        }
+        else
+        {
+            printf("register x%ld: %ld -> %ld \n", 
+            cpu -> data.register_affected, cpu -> data.old_reg_val, cpu -> data.new_reg_val);
+        }
+        printf("Old PC %ld -> New PC %ld\n", cpu -> data.old_pc, cpu -> data.new_pc);
+        printf("Opcode (hex): %X\n", cpu -> data.opcode);
+        putchar('\n');
     }
 }
+
+
+
+
 

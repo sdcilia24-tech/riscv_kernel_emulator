@@ -24,4 +24,7 @@ CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj: \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
   C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/lib/clang/22/include/mm_malloc.h
+  C:/msys64/ucrt64/lib/clang/22/include/mm_malloc.h \
+  C:/msys64/ucrt64/include/string.h \
+  C:/msys64/ucrt64/include/corecrt_memory.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h

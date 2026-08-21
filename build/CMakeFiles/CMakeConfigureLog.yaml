@@ -45,6 +45,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -81,12 +82,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -135,12 +137,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "message-v1"
     backtrace:
@@ -202,6 +205,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -263,6 +267,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ar.com"
       - "C:/Strawberry/perl/bin/llvm-ar.exe"
       - "C:/Strawberry/perl/bin/llvm-ar"
+      - "C:/Program Files/Tailscale/llvm-ar.com"
+      - "C:/Program Files/Tailscale/llvm-ar.exe"
+      - "C:/Program Files/Tailscale/llvm-ar"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar"
@@ -306,12 +313,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -351,6 +359,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -412,6 +421,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ranlib.com"
       - "C:/Strawberry/perl/bin/llvm-ranlib.exe"
       - "C:/Strawberry/perl/bin/llvm-ranlib"
+      - "C:/Program Files/Tailscale/llvm-ranlib.com"
+      - "C:/Program Files/Tailscale/llvm-ranlib.exe"
+      - "C:/Program Files/Tailscale/llvm-ranlib"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib"
@@ -455,12 +467,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -500,6 +513,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -561,6 +575,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-strip.com"
       - "C:/Strawberry/perl/bin/llvm-strip.exe"
       - "C:/Strawberry/perl/bin/llvm-strip"
+      - "C:/Program Files/Tailscale/llvm-strip.com"
+      - "C:/Program Files/Tailscale/llvm-strip.exe"
+      - "C:/Program Files/Tailscale/llvm-strip"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-strip.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-strip.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-strip"
@@ -604,12 +621,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -649,6 +667,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -681,12 +700,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -726,6 +746,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -787,6 +808,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-nm.com"
       - "C:/Strawberry/perl/bin/llvm-nm.exe"
       - "C:/Strawberry/perl/bin/llvm-nm"
+      - "C:/Program Files/Tailscale/llvm-nm.com"
+      - "C:/Program Files/Tailscale/llvm-nm.exe"
+      - "C:/Program Files/Tailscale/llvm-nm"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-nm.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-nm.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-nm"
@@ -830,12 +854,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -875,6 +900,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -936,6 +962,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-objdump.com"
       - "C:/Strawberry/perl/bin/llvm-objdump.exe"
       - "C:/Strawberry/perl/bin/llvm-objdump"
+      - "C:/Program Files/Tailscale/llvm-objdump.com"
+      - "C:/Program Files/Tailscale/llvm-objdump.exe"
+      - "C:/Program Files/Tailscale/llvm-objdump"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objdump.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objdump.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objdump"
@@ -979,12 +1008,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1024,6 +1054,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1085,6 +1116,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-objcopy.com"
       - "C:/Strawberry/perl/bin/llvm-objcopy.exe"
       - "C:/Strawberry/perl/bin/llvm-objcopy"
+      - "C:/Program Files/Tailscale/llvm-objcopy.com"
+      - "C:/Program Files/Tailscale/llvm-objcopy.exe"
+      - "C:/Program Files/Tailscale/llvm-objcopy"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objcopy.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objcopy.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-objcopy"
@@ -1128,12 +1162,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1173,6 +1208,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1234,6 +1270,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-readelf.com"
       - "C:/Strawberry/perl/bin/llvm-readelf.exe"
       - "C:/Strawberry/perl/bin/llvm-readelf"
+      - "C:/Program Files/Tailscale/llvm-readelf.com"
+      - "C:/Program Files/Tailscale/llvm-readelf.exe"
+      - "C:/Program Files/Tailscale/llvm-readelf"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-readelf.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-readelf.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-readelf"
@@ -1277,12 +1316,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1322,6 +1362,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1383,6 +1424,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-dlltool.com"
       - "C:/Strawberry/perl/bin/llvm-dlltool.exe"
       - "C:/Strawberry/perl/bin/llvm-dlltool"
+      - "C:/Program Files/Tailscale/llvm-dlltool.com"
+      - "C:/Program Files/Tailscale/llvm-dlltool.exe"
+      - "C:/Program Files/Tailscale/llvm-dlltool"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-dlltool.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-dlltool.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-dlltool"
@@ -1426,12 +1470,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1471,6 +1516,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1532,6 +1578,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-addr2line.com"
       - "C:/Strawberry/perl/bin/llvm-addr2line.exe"
       - "C:/Strawberry/perl/bin/llvm-addr2line"
+      - "C:/Program Files/Tailscale/llvm-addr2line.com"
+      - "C:/Program Files/Tailscale/llvm-addr2line.exe"
+      - "C:/Program Files/Tailscale/llvm-addr2line"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-addr2line"
@@ -1575,12 +1624,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1619,6 +1669,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1680,6 +1731,9 @@ events:
       - "C:/Strawberry/perl/bin/tapi.com"
       - "C:/Strawberry/perl/bin/tapi.exe"
       - "C:/Strawberry/perl/bin/tapi"
+      - "C:/Program Files/Tailscale/tapi.com"
+      - "C:/Program Files/Tailscale/tapi.exe"
+      - "C:/Program Files/Tailscale/tapi"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/tapi.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/tapi.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/tapi"
@@ -1722,12 +1776,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -1769,6 +1824,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1830,6 +1886,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ar-22.1.com"
       - "C:/Strawberry/perl/bin/llvm-ar-22.1.exe"
       - "C:/Strawberry/perl/bin/llvm-ar-22.1"
+      - "C:/Program Files/Tailscale/llvm-ar-22.1.com"
+      - "C:/Program Files/Tailscale/llvm-ar-22.1.exe"
+      - "C:/Program Files/Tailscale/llvm-ar-22.1"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22.1.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22.1.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22.1"
@@ -1902,6 +1961,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ar-22.com"
       - "C:/Strawberry/perl/bin/llvm-ar-22.exe"
       - "C:/Strawberry/perl/bin/llvm-ar-22"
+      - "C:/Program Files/Tailscale/llvm-ar-22.com"
+      - "C:/Program Files/Tailscale/llvm-ar-22.exe"
+      - "C:/Program Files/Tailscale/llvm-ar-22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar-22"
@@ -1974,6 +2036,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ar22.com"
       - "C:/Strawberry/perl/bin/llvm-ar22.exe"
       - "C:/Strawberry/perl/bin/llvm-ar22"
+      - "C:/Program Files/Tailscale/llvm-ar22.com"
+      - "C:/Program Files/Tailscale/llvm-ar22.exe"
+      - "C:/Program Files/Tailscale/llvm-ar22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar22"
@@ -2046,6 +2111,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ar.com"
       - "C:/Strawberry/perl/bin/llvm-ar.exe"
       - "C:/Strawberry/perl/bin/llvm-ar"
+      - "C:/Program Files/Tailscale/llvm-ar.com"
+      - "C:/Program Files/Tailscale/llvm-ar.exe"
+      - "C:/Program Files/Tailscale/llvm-ar"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ar"
@@ -2088,12 +2156,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -2135,6 +2204,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -2196,6 +2266,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ranlib-22.1.com"
       - "C:/Strawberry/perl/bin/llvm-ranlib-22.1.exe"
       - "C:/Strawberry/perl/bin/llvm-ranlib-22.1"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22.1.com"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22.1.exe"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22.1"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22.1.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22.1.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22.1"
@@ -2268,6 +2341,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ranlib-22.com"
       - "C:/Strawberry/perl/bin/llvm-ranlib-22.exe"
       - "C:/Strawberry/perl/bin/llvm-ranlib-22"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22.com"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22.exe"
+      - "C:/Program Files/Tailscale/llvm-ranlib-22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-22"
@@ -2340,6 +2416,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ranlib22.com"
       - "C:/Strawberry/perl/bin/llvm-ranlib22.exe"
       - "C:/Strawberry/perl/bin/llvm-ranlib22"
+      - "C:/Program Files/Tailscale/llvm-ranlib22.com"
+      - "C:/Program Files/Tailscale/llvm-ranlib22.exe"
+      - "C:/Program Files/Tailscale/llvm-ranlib22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib22"
@@ -2412,6 +2491,9 @@ events:
       - "C:/Strawberry/perl/bin/llvm-ranlib.com"
       - "C:/Strawberry/perl/bin/llvm-ranlib.exe"
       - "C:/Strawberry/perl/bin/llvm-ranlib"
+      - "C:/Program Files/Tailscale/llvm-ranlib.com"
+      - "C:/Program Files/Tailscale/llvm-ranlib.exe"
+      - "C:/Program Files/Tailscale/llvm-ranlib"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/llvm-ranlib"
@@ -2454,12 +2536,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -2501,6 +2584,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -2562,6 +2646,9 @@ events:
       - "C:/Strawberry/perl/bin/clang-scan-deps-22.1.com"
       - "C:/Strawberry/perl/bin/clang-scan-deps-22.1.exe"
       - "C:/Strawberry/perl/bin/clang-scan-deps-22.1"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22.1.com"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22.1.exe"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22.1"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22.1.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22.1.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22.1"
@@ -2634,6 +2721,9 @@ events:
       - "C:/Strawberry/perl/bin/clang-scan-deps-22.com"
       - "C:/Strawberry/perl/bin/clang-scan-deps-22.exe"
       - "C:/Strawberry/perl/bin/clang-scan-deps-22"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22.com"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22.exe"
+      - "C:/Program Files/Tailscale/clang-scan-deps-22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-22"
@@ -2706,6 +2796,9 @@ events:
       - "C:/Strawberry/perl/bin/clang-scan-deps22.com"
       - "C:/Strawberry/perl/bin/clang-scan-deps22.exe"
       - "C:/Strawberry/perl/bin/clang-scan-deps22"
+      - "C:/Program Files/Tailscale/clang-scan-deps22.com"
+      - "C:/Program Files/Tailscale/clang-scan-deps22.exe"
+      - "C:/Program Files/Tailscale/clang-scan-deps22"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps22.com"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps22.exe"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/clang-scan-deps22"
@@ -2749,12 +2842,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
   -
     kind: "find-v1"
     backtrace:
@@ -2798,6 +2892,7 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
+      - "C:/Program Files/Tailscale/"
       - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/sdcil/AppData/Local/Python/bin/"
       - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -2845,12 +2940,13 @@ events:
         - "C:/Strawberry/c/bin"
         - "C:\\Strawberry\\perl\\site\\bin"
         - "C:/Strawberry/perl/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/sdcil/AppData/Local/Python/bin"
-        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/sdcil/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-        - "C:\\Users\\sdcil\\AppData\\Local\\PowerToys\\DSCModules\\"
-        - "C:/Users/sdcil/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:/Users/sdcil/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Python\\bin"
+        - "C:/Users/sdcil/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/sdcil/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\sdcil\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/riscv_kernel"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
@@ -2867,8 +2963,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2"
-      binary: "C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2"
+      source: "C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu"
+      binary: "C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2877,19 +2973,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2'
+        Change Dir: 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b4010/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b4010.dir\\build.make CMakeFiles/cmTC_b4010.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2'
-        Building C object CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b4010.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_b4010.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2c080/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2c080.dir\\build.make CMakeFiles/cmTC_2c080.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu'
+        Building C object CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_2c080.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_2c080.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         clang version 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/ucrt64/bin
          (in-process)
-         "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2 -v -fcoverage-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2 -resource-dir C:/msys64/ucrt64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_b4010.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/22/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_b4010.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-4.2\\\\Modules\\\\CMakeCCompilerABI.c"
+         "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu -v -fcoverage-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu -resource-dir C:/msys64/ucrt64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_2c080.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/22/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_2c080.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-4.2\\\\Modules\\\\CMakeCCompilerABI.c"
         clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"
@@ -2898,18 +2994,18 @@ events:
          C:/msys64/ucrt64/lib/clang/22/include
          C:/msys64/ucrt64/include
         End of search list.
-        Linking C executable cmTC_b4010.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b4010.dir\\link.txt --verbose=1
+        Linking C executable cmTC_2c080.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2c080.dir\\link.txt --verbose=1
         clang version 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/ucrt64/bin
-         "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_b4010.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v --whole-archive "CMakeFiles\\\\cmTC_b4010.dir/objects.a" --no-whole-archive --out-implib libcmTC_b4010.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+         "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_2c080.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v --whole-archive "CMakeFiles\\\\cmTC_2c080.dir/objects.a" --no-whole-archive --out-implib libcmTC_2c080.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b4010.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b4010.dir/objects.a @CMakeFiles\\cmTC_b4010.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_b4010.dir/objects.a -Wl,--no-whole-archive -o cmTC_b4010.exe -Wl,--out-implib,libcmTC_b4010.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2c080.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2c080.dir/objects.a @CMakeFiles\\cmTC_2c080.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2c080.dir/objects.a -Wl,--no-whole-archive -o cmTC_2c080.exe -Wl,--out-implib,libcmTC_2c080.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu'
         
       exitCode: 0
   -
@@ -2940,19 +3036,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2']
+        ignore line: [Change Dir: 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b4010/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b4010.dir\\build.make CMakeFiles/cmTC_b4010.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2']
-        ignore line: [Building C object CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b4010.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_b4010.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2c080/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2c080.dir\\build.make CMakeFiles/cmTC_2c080.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu']
+        ignore line: [Building C object CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_2c080.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_2c080.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [clang version 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2 -v -fcoverage-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-e0oyt2 -resource-dir C:/msys64/ucrt64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_b4010.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b4010.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/22/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_b4010.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-4.2\\\\Modules\\\\CMakeCCompilerABI.c"]
+        ignore line: [ "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu -v -fcoverage-compilation-dir=C:/Users/sdcil/CProjects/riscv_kernel/build/CMakeFiles/CMakeScratch/TryCompile-miy4cu -resource-dir C:/msys64/ucrt64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_2c080.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_2c080.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/22/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_2c080.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-4.2\\\\Modules\\\\CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"]
@@ -2961,19 +3057,19 @@ events:
         ignore line: [ C:/msys64/ucrt64/lib/clang/22/include]
         ignore line: [ C:/msys64/ucrt64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_b4010.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b4010.dir\\link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_2c080.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2c080.dir\\link.txt --verbose=1]
         ignore line: [clang version 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
-        link line: [ "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_b4010.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v --whole-archive "CMakeFiles\\\\cmTC_b4010.dir/objects.a" --no-whole-archive --out-implib libcmTC_b4010.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        link line: [ "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_2c080.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v --whole-archive "CMakeFiles\\\\cmTC_2c080.dir/objects.a" --no-whole-archive --out-implib libcmTC_2c080.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_b4010.exe] ==> ignore
+          arg [cmTC_2c080.exe] ==> ignore
           arg [C:/msys64/ucrt64/lib/crt2.o] ==> obj [C:/msys64/ucrt64/lib/crt2.o]
           arg [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2982,10 +3078,10 @@ events:
           arg [-LC:/msys64/ucrt64/lib] ==> dir [C:/msys64/ucrt64/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\\\cmTC_b4010.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\\\cmTC_2c080.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_b4010.dll.a] ==> ignore
+          arg [libcmTC_2c080.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore

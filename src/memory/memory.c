@@ -11,7 +11,7 @@
 
 typedef struct {
     bool loadable; // is the current segment loadable
-    uint32_t flag;
+    uint32_t flag; // permission flag
     uint32_t start; // starting point
     uint32_t end; // ending point
 } p_loc_t;
