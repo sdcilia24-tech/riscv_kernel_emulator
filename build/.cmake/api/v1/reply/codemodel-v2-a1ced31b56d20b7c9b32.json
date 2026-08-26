@@ -22,7 +22,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -43,7 +44,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -52,49 +54,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "app_logic::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-app_logic-Debug-e3328a4f8d0272dd50b3.json",
+					"jsonFile" : "target-app_logic-Debug-935cc630c6e799695298.json",
 					"name" : "app_logic",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "app_memory::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-app_memory-Debug-59f529c1a7d47140b2da.json",
+					"jsonFile" : "target-app_memory-Debug-fb6f412d17943d8775a4.json",
 					"name" : "app_memory",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cpu_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpu_tests-Debug-48fc88604c50dc0af441.json",
+					"jsonFile" : "target-cpu_tests-Debug-fb4f96a60e661ac78b8b.json",
 					"name" : "cpu_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "dsm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsm-Debug-7141532ec943f657acc0.json",
+					"name" : "dsm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "loader::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-loader-Debug-c23fe1c46c5fe6d7a506.json",
+					"jsonFile" : "target-loader-Debug-e820362c6ead2a8ef46e.json",
 					"name" : "loader",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "loader_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-loader_test-Debug-243fad4a802b28d6f848.json",
+					"jsonFile" : "target-loader_test-Debug-6e746cde4c009115f3e7.json",
 					"name" : "loader_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "memory_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-memory_tests-Debug-b954fdb286cbf53d33b8.json",
+					"jsonFile" : "target-memory_tests-Debug-21d0543e139cedd1cd21.json",
 					"name" : "memory_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "riscv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-riscv-Debug-538b279c4f963aa79d44.json",
+					"jsonFile" : "target-riscv-Debug-c065362fb6eb065181f5.json",
 					"name" : "riscv",
 					"projectIndex" : 0
 				}

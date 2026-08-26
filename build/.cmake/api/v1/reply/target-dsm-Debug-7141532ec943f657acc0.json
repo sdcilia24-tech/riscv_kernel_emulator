@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libloader.a"
+			"path" : "libdsm.a"
 		}
 	],
 	"backtrace" : 1,
@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -73,9 +73,9 @@
 			]
 		}
 	],
-	"id" : "loader::@6890427a1f51a3e7e1df",
-	"name" : "loader",
-	"nameOnDisk" : "libloader.a",
+	"id" : "dsm::@6890427a1f51a3e7e1df",
+	"name" : "dsm",
+	"nameOnDisk" : "libdsm.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +96,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/elf_loading/elf_loader.c",
+			"path" : "src/disassembler/disassembler.c",
 			"sourceGroupIndex" : 0
 		}
 	],

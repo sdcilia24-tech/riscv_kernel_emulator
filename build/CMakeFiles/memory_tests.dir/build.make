@@ -116,6 +116,7 @@ memory_tests.exe: libloader.a
 memory_tests.exe: libapp_memory.a
 memory_tests.exe: libapp_logic.a
 memory_tests.exe: libapp_memory.a
+memory_tests.exe: libdsm.a
 memory_tests.exe: CMakeFiles/memory_tests.dir/linkLibs.rsp
 memory_tests.exe: CMakeFiles/memory_tests.dir/objects1.rsp
 memory_tests.exe: CMakeFiles/memory_tests.dir/link.txt

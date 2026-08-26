@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libdsm.a CMakeFiles/dsm.dir/src/disassembler/disassembler.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libdsm.a

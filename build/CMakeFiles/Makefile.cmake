@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/app_logic.dir/DependInfo.cmake"
   "CMakeFiles/app_memory.dir/DependInfo.cmake"
   "CMakeFiles/loader.dir/DependInfo.cmake"
+  "CMakeFiles/dsm.dir/DependInfo.cmake"
   "CMakeFiles/riscv.dir/DependInfo.cmake"
   "CMakeFiles/cpu_tests.dir/DependInfo.cmake"
   "CMakeFiles/memory_tests.dir/DependInfo.cmake"

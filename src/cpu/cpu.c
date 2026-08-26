@@ -1,9 +1,17 @@
 #include <stdio.h>
 #include "memory/memory.h"
+#include "disassembler/disassembler.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
+
+/*
+defines a file containing all the relevent methods and structs for the cpu 
+instructions for RISC-V 32 bit architecture
+*/
 #define X_LEN 32
+
+
 
 // Opcode typing for easy refereence
 #define R_TYPE 0b0110011
@@ -28,8 +36,8 @@
 
 typedef struct {
 
-    long old_pc; // old program counter value
-    long new_pc; // new program counter value
+    uint32_t old_pc; // old program counter value
+    uint32_t new_pc; // new program counter value
 
     long register_affected; // the register affected
     long old_reg_val; // old value in register
@@ -624,8 +632,8 @@ void trace_cpu(cpu_t *cpu, uint32_t ins, uint32_t *old_reg, uint32_t old_pc)
     cpu_info_t log;
     char buffer[256]; 
     log.opcode = (ins & 0x0FF);
-    log.new_pc = (long) (cpu -> pc);
-    log.old_pc = (long)old_pc;
+    log.new_pc = (cpu -> pc);
+    log.old_pc = old_pc;
 
     for (int i = 0; i < X_LEN; i++)
     {
@@ -662,6 +670,7 @@ void cpu_loop_for_testing(cpu_t *cpu, int num_cycles, char* func_name)
         fetch_decode_execute(cpu);
         trace_cpu(cpu, ins, old_registers, old_pc);
         putchar('\n');
+        disassemble(ins);
         printf("DEBUG LOG FOR [ %s ] iter: %d \n", func_name, i);
         if (cpu -> data.old_reg_val == cpu -> data.new_reg_val)
         {
@@ -672,7 +681,7 @@ void cpu_loop_for_testing(cpu_t *cpu, int num_cycles, char* func_name)
             printf("register x%ld: %ld -> %ld \n", 
             cpu -> data.register_affected, cpu -> data.old_reg_val, cpu -> data.new_reg_val);
         }
-        printf("Old PC %ld -> New PC %ld\n", cpu -> data.old_pc, cpu -> data.new_pc);
+        printf("Old PC %X -> New PC %X\n", cpu -> data.old_pc, cpu -> data.new_pc);
         printf("Opcode (hex): %X\n", cpu -> data.opcode);
         putchar('\n');
     }

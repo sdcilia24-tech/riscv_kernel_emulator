@@ -165,6 +165,19 @@ loader/fast:
 .PHONY : loader/fast
 
 #=============================================================================
+# Target rules for targets named dsm
+
+# Build rule for target.
+dsm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dsm
+.PHONY : dsm
+
+# fast build rule for target.
+dsm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dsm.dir\build.make CMakeFiles/dsm.dir/build
+.PHONY : dsm/fast
+
+#=============================================================================
 # Target rules for targets named riscv
 
 # Build rule for target.
@@ -263,6 +276,30 @@ src/cpu/cpu.s: src/cpu/cpu.c.s
 src/cpu/cpu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app_logic.dir\build.make CMakeFiles/app_logic.dir/src/cpu/cpu.c.s
 .PHONY : src/cpu/cpu.c.s
+
+src/disassembler/disassembler.obj: src/disassembler/disassembler.c.obj
+.PHONY : src/disassembler/disassembler.obj
+
+# target to build an object file
+src/disassembler/disassembler.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dsm.dir\build.make CMakeFiles/dsm.dir/src/disassembler/disassembler.c.obj
+.PHONY : src/disassembler/disassembler.c.obj
+
+src/disassembler/disassembler.i: src/disassembler/disassembler.c.i
+.PHONY : src/disassembler/disassembler.i
+
+# target to preprocess a source file
+src/disassembler/disassembler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dsm.dir\build.make CMakeFiles/dsm.dir/src/disassembler/disassembler.c.i
+.PHONY : src/disassembler/disassembler.c.i
+
+src/disassembler/disassembler.s: src/disassembler/disassembler.c.s
+.PHONY : src/disassembler/disassembler.s
+
+# target to generate assembly for a file
+src/disassembler/disassembler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dsm.dir\build.make CMakeFiles/dsm.dir/src/disassembler/disassembler.c.s
+.PHONY : src/disassembler/disassembler.c.s
 
 src/elf_loading/elf_loader.obj: src/elf_loading/elf_loader.c.obj
 .PHONY : src/elf_loading/elf_loader.obj
@@ -426,6 +463,7 @@ help:
 	@echo ... app_logic
 	@echo ... app_memory
 	@echo ... cpu_tests
+	@echo ... dsm
 	@echo ... loader
 	@echo ... loader_test
 	@echo ... memory_tests
@@ -436,6 +474,9 @@ help:
 	@echo ... src/cpu/cpu.obj
 	@echo ... src/cpu/cpu.i
 	@echo ... src/cpu/cpu.s
+	@echo ... src/disassembler/disassembler.obj
+	@echo ... src/disassembler/disassembler.i
+	@echo ... src/disassembler/disassembler.s
 	@echo ... src/elf_loading/elf_loader.obj
 	@echo ... src/elf_loading/elf_loader.i
 	@echo ... src/elf_loading/elf_loader.s

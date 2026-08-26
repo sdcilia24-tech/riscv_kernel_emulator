@@ -18,6 +18,7 @@ CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj: \
   C:/msys64/ucrt64/lib/clang/22/include/__stddef_wchar_t.h \
   C:/msys64/ucrt64/lib/clang/22/include/__stddef_wint_t.h \
   C:/msys64/ucrt64/lib/clang/22/include/stdbool.h \
+  C:/Users/sdcil/CProjects/riscv_kernel/src/disassembler/disassembler.h \
   C:/msys64/ucrt64/include/stdlib.h \
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/lib/clang/22/include/limits.h \

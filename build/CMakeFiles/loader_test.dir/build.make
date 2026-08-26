@@ -116,6 +116,7 @@ loader_test.exe: libloader.a
 loader_test.exe: libapp_memory.a
 loader_test.exe: libapp_logic.a
 loader_test.exe: libapp_memory.a
+loader_test.exe: libdsm.a
 loader_test.exe: CMakeFiles/loader_test.dir/linkLibs.rsp
 loader_test.exe: CMakeFiles/loader_test.dir/objects1.rsp
 loader_test.exe: CMakeFiles/loader_test.dir/link.txt

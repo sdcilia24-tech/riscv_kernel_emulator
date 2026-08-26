@@ -38,6 +38,7 @@ typedef struct {
 } cpu_t;
 
 void emulate_instruction(cpu_t *cpu, uint32_t ins);
+int32_t extend_n_bit_sign(int32_t x, int len);
 void cpu_loop_for_testing(cpu_t *cpu, int num_cycles, char* func_name);
 void cpu_loop(cpu_t *cpu);
 void fetch_decode_execute(cpu_t *cpu);

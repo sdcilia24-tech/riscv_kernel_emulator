@@ -3,6 +3,7 @@
 
 CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj
  C:/Users/sdcil/CProjects/riscv_kernel/src/cpu/cpu.c
+ C:/Users/sdcil/CProjects/riscv_kernel/src/disassembler/disassembler.h
  C:/Users/sdcil/CProjects/riscv_kernel/src/memory/memory.h
  C:/msys64/ucrt64/include/_mingw.h
  C:/msys64/ucrt64/include/_mingw_mac.h

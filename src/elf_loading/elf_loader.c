@@ -4,10 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
 #include "memory/memory.h"
 
-
+/*
+defines a file that will parse and load an elf program into memory, it is 
+only capable of handling RISC-V as that is the system I am emulating.
+*/
 # define ELF_NIDENT	16 // the header array 
 # define RISCV32 0xF3 // architecture signature
 # define EV_CURRENT	(1)

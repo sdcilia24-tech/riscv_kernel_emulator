@@ -98,6 +98,7 @@ riscv.exe: CMakeFiles/riscv.dir/build.make
 riscv.exe: libapp_logic.a
 riscv.exe: libapp_memory.a
 riscv.exe: libloader.a
+riscv.exe: libdsm.a
 riscv.exe: CMakeFiles/riscv.dir/linkLibs.rsp
 riscv.exe: CMakeFiles/riscv.dir/objects1.rsp
 riscv.exe: CMakeFiles/riscv.dir/link.txt

@@ -114,6 +114,7 @@ cpu_tests.exe: CMakeFiles/cpu_tests.dir/testing/unity.c.obj
 cpu_tests.exe: CMakeFiles/cpu_tests.dir/build.make
 cpu_tests.exe: libapp_logic.a
 cpu_tests.exe: libapp_memory.a
+cpu_tests.exe: libdsm.a
 cpu_tests.exe: CMakeFiles/cpu_tests.dir/linkLibs.rsp
 cpu_tests.exe: CMakeFiles/cpu_tests.dir/objects1.rsp
 cpu_tests.exe: CMakeFiles/cpu_tests.dir/link.txt

@@ -2,6 +2,11 @@
 #include <stdbool.h>
 #include <string.h>
 
+
+/*
+file that defines ~200kB of memory and a segment structure to keep track
+of relevent metadata
+*/
 #define MEM_LEN 0x20000
 
 

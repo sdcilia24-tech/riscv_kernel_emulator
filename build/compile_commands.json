@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/dsm.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\dsm.dir\\src\\disassembler\\disassembler.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\src\\disassembler\\disassembler.c",
+  "file": "C:/Users/sdcil/CProjects/riscv_kernel/src/disassembler/disassembler.c",
+  "output": "CMakeFiles/dsm.dir/src/disassembler/disassembler.c.obj"
+},
+{
+  "directory": "C:/Users/sdcil/CProjects/riscv_kernel/build",
   "command": "C:\\msys64\\ucrt64\\bin\\clang.exe  @CMakeFiles/app_logic.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\app_logic.dir\\src\\cpu\\cpu.c.obj -c C:\\Users\\sdcil\\CProjects\\riscv_kernel\\src\\cpu\\cpu.c",
   "file": "C:/Users/sdcil/CProjects/riscv_kernel/src/cpu/cpu.c",
   "output": "CMakeFiles/app_logic.dir/src/cpu/cpu.c.obj"

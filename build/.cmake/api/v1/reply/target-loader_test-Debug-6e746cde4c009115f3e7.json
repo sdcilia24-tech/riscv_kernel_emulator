@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cpu_tests.exe"
+			"path" : "loader_test.exe"
 		},
 		{
-			"path" : "cpu_tests.pdb"
+			"path" : "loader_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,19 +29,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 33,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 43,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 38,
+				"line" : 83,
 				"parent" : 0
 			}
 		]
@@ -55,11 +61,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "app_logic::@6890427a1f51a3e7e1df"
+			"id" : "loader::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "app_memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "app_logic::@6890427a1f51a3e7e1df"
 		}
 	],
 	"compileGroups" : 
@@ -74,11 +84,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Users/sdcil/CProjects/riscv_kernel/testing"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Users/sdcil/CProjects/riscv_kernel/src"
 				}
 			],
@@ -107,9 +117,17 @@
 		{
 			"backtrace" : 2,
 			"id" : "app_memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "loader::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "dsm::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "cpu_tests::@6890427a1f51a3e7e1df",
+	"id" : "loader_test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -120,12 +138,27 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "libloader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libapp_memory.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "libapp_logic.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
 				"fragment" : "libapp_memory.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libdsm.a",
 				"role" : "libraries"
 			},
 			{
@@ -139,15 +172,19 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "app_logic::@6890427a1f51a3e7e1df"
+			"id" : "loader::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "app_memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "app_logic::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "cpu_tests",
-	"nameOnDisk" : "cpu_tests.exe",
+	"name" : "loader_test",
+	"nameOnDisk" : "loader_test.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -169,7 +206,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "testing/cpu/cpu_testing.c",
+			"path" : "testing/elf_loader/loading_test.c",
 			"sourceGroupIndex" : 0
 		},
 		{
